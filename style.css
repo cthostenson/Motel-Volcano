@@ -69,12 +69,15 @@ body {
   justify-content: center;
   /*align-items: center;*/
   transform: translateZ(-1px) scale(2);
-  background-image: url("images/volcano.png");
-  background-position: center;
-  background-size: cover;
+
   height: 100vh;
 }
 
+#bookImg{
+	background-image: url("images/bookRoom.jpg");
+	background-position: center;
+	background-size: cover;
+}
 .parallax-bkg {
 	display: flex;
 	flex: 1 0 auto;
@@ -234,8 +237,8 @@ h1 {
 	border: #1B9077 solid 1px;
 }
 
-#about-img {
-	background-image: url("images/motel.jpg");
+#book-img {
+	background-image: url("images/room.jpg");
 	background-size: cover;
 	background-position: center;
 }
