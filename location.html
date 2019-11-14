@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" media="screen" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Jockey+One|Bowlby+One|Anton|Audiowide|Bangers|Faster+One|Londrina+Outline|Monofett|Righteous|Bungee+Inline|Carrois+Gothic+SC|Oregano" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+    <title>Motel Volcano</title>
+
+    <style>
+
+    </style>
+</head>
+<body>
+
+<div id="wrapper">
+
+    <div id="banner">
+        <nav>
+            <div class="banner-link"><a href="#about">Book A Room &nbsp;<i class="fa fa-shopping-cart" aria-hidden="true"></i></a></div>
+            <div class="banner-link"><a href="#services">Services &nbsp;<i class="fas fa-mobile-alt" aria-hidden="true"></i></a></div>
+            <div class="banner-link"><a href="#contact">Location &nbsp;<i class="fa fa-envelope" aria-hidden="true"></i></a></div>
+        </nav>
+    </div> <!-- End Of #banner -->
+
+    <div id="locationTopText">123 North Volcano Drive, Fortnite Island, USA</div>
+    <!--The div element for the map -->
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var uluru = {lat: -25.344, lng: 131.036};
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 7, center: uluru});
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+    </script>
+
+
+    <!--<div id="homePage">-->
+    <header class="ParallaxContainer" id="locationImg">
+        <div id="map"></div>
+        <div id="top">
+            <div id="socialMediaLinks">
+
+            </div> <!-- End of #socialMediaLinks -->
+        </div> <!-- End of #top -->
+    </header>
+
+    <div class="ContentContainer">
+        <main>
+
+
+            <div class="half-section" id="about">
+                <div class="left-half">
+                    <div class="about-text">
+                        <h2><i class="fas fa-parking"></i>
+                            Parking </h2>
+                        <p>Here at Motel Volcano we know parking can be a nightmare so we have a parking lot with plenty of space that is patrolled hourly. There has never been any car break in under our watch! Customer satisfaction guaranteed!!</p>
+                    </div>
+                </div>
+                <div class="right-half" id="about-img">
+
+                </div>
+            </div>
+            <div class="half-section" >
+                <div class="left-half" id="volcano-img">
+
+                </div>
+                <div class="right-half">
+                    <div class="about-text">
+                        <h2>
+                            Scenery </h2>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="ribbon">Season Passes</div>-->
+            <div class="thirds-section" id="services">
+                <section>
+                    <h3>Extended Stay</h3>
+                    <p>Lookin’ for a deal as hot as Mount DeFault? Stay six nights with us and get the seventh night free!</p>
+                    <div class="package-image" id="img1"></div>
+                    <a class="cta-w" href="#">Learn More</a>
+                </section>
+                <section>
+                    <h3>Best Value</h3>
+                    <p>Trying find a sweet deal? If you reserve and stay three or more nights, you’ll get 10% off your bill!</p>
+                    <div class="package-image" id="img2"></div>
+                    <a class="cta-w" href="#">Learn More</a>
+                </section>
+                <section>
+                    <h3>Pet Friendly</h3>
+                    <p>Want to take a vacation, but can’t leave the dog at home? No Worries! Pets stay for Free at Motel Volcano!</p>
+                    <div class="package-image" id="img3"></div>
+                    <a class="cta-w" href="#">Learn More</a>
+                </section>
+            </div>
+
+        </main>
+
+    </div> <!-- End of ContentContainer -->
+
+</div> <!-- End of #wrapper -->
+<h3>My Google Maps Demo</h3>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="scripts.js"></script> <!-- Link To External Javascript File -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvbIkVeGfVzl9zRBs0gnOWmRkqJgUZLqc&callback=initMap"
+        type="text/javascript"></script>
+</body>
+</html>

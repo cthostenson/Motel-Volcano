@@ -190,6 +190,27 @@ h1 {
 	/*0 0 150px #aa00aa;*/
 	height: 100px;
 }
+#locationTopText {
+	/* NOT BAD - Audiowide, NOT BAD - ANTON */
+	top: 26%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-family: 'Jockey One';
+	font-size: 5em;
+	/*font-weight: 100;*/
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 250px;
+	text-shadow: 3px 3px 0px #1B9077,
+	0 0 15px #fff,
+	0 0 40px #1B9077,
+		/*0 0 70px #dd00dd,*/
+	0 0 80px #1B9077,
+	0 0 100px #1B9077;
+	/*0 0 150px #aa00aa;*/
+	height: 100px;
+}
 
 .half-section {
 	display: grid;
@@ -243,6 +264,17 @@ h1 {
 	background-position: center;
 }
 
+
+#about-img {
+	background-image: url("images/MotelPic.png");
+	background-size: cover;
+	background-position: center;
+}
+#volcano-img {
+	background-image: url("images/volcano.png");
+	background-size: cover;
+	background-position: center;
+}
 section {
 	padding: 3em;
 	font-family: 'McLaren', cursive;
