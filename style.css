@@ -69,21 +69,12 @@ body {
   justify-content: center;
   /*align-items: center;*/
   transform: translateZ(-1px) scale(2);
+  background-image: url("images/volcano.png");
+  background-position: center;
+  background-size: cover;
   height: 100vh;
 }
 
-#locationImg {
-	background-image: url("images/volcano.png");
-	background-position: center;
-	background-size: cover;
-}
-/* Set the size of the div element that contains the map */
-#map {
-	height: 50%;  /* The height is 400 pixels */
-	width: 50%;  /* The width is the width of the web page */
-	top: 200px;
-	z-index:-1;
-}
 .parallax-bkg {
 	display: flex;
 	flex: 1 0 auto;
@@ -966,7 +957,6 @@ h4 {
 		background-position: center;
 		background-size: cover;
 	}
-
 	
 	.ContentContainer {
 		display: block;
